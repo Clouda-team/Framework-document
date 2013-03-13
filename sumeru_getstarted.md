@@ -58,4 +58,31 @@
 在浏览器中输入“localhost:8080/debug.html#/helloworld”,是否跟我的一样呢？
 
 ![](images/intro_2_1.png)
-	 	
+### 三. sumeru目录介绍
+通过上面动手开发“hello world”,对于使用sumeru开发有了基本的了解,下面我们回过头来看看sumeru是什么样的结构,有哪些部分组成?
+* ###### assets/
+	如果你的应用用到一些资源文件,比如图片、CSS等可以放在assets文件夹下		
+* ###### config/
+	sumeru的配置文件放在该目录下
+		 * ######  controller/
+ 	我们开发的controller文件都放在这里
+	* ######  model/
+	我们开发的model文件都放在这里	 * ###### view/
+ 	我们开发的view文件都放在这里
+ 	 * ###### publish/
+ 	publish/下的文件都运行在Server上，文件中定义了Server将什么类型的数据发布到端上	 * ###### debug.html
+ 	应用线下入口	 * ###### package.js
+ 	将文件或者文件夹的依赖关系添加到sumeru中
+	
+* ###### library
+
+	代码库,我们可以添加自己的代码到代码库中
+		 * ###### server/ 、 sumeru/
+	sumeru框架文件，开发者可不关注
+	
+	
+
+
+
+￼￼
+ 	
