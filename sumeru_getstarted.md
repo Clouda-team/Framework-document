@@ -49,7 +49,9 @@ myproject是项目所在目录，你可提前创建，也可由sumeru自动创�
 ### 第三步：在"myproject/view/"下创建helloworld.html，并输入已下代码
 * helloworld.html
 			<p>Hello World!</p>		
-** 至此 **，“hello world”应用代码已经完成。在浏览器中输入“localhost:8080/debug.html#/helloworld”运行该应用。
+** 至此 **，“hello world”应用代码已经完成。
+
+在浏览器中输入"localhost:8080/debug.html#/helloworld"运行该应用。
 
 ![](images/intro_2_1.png)
 
